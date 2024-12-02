@@ -26,7 +26,7 @@ const SmsTermsPage = () => {
             <li>Message and data rates may apply</li>
             <li>Message frequency may vary</li>
             <li>You can opt-out at any time</li>
-            <li>Your phone carrier's standard messaging rates will apply</li>
+            <li>Your phone carrier&#39;s standard messaging rates will apply</li>
           </ul>
         </section>
 
