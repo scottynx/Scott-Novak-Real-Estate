@@ -5,7 +5,7 @@ const SmsTermsPage = () => {
    <main className="min-h-screen bg-gray-50">
      {/* Header */}
      <header className="bg-teal-700 text-white p-4 text-center">
-       <h1 className="text-2xl font-bold">PREMARKET HOMES</h1>
+       <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE - PREMARKET HOMES</h1>
      </header>
 
      <div className="max-w-3xl mx-auto p-8">
