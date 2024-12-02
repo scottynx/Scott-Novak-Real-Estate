@@ -2,7 +2,7 @@
 
 const SmsTermsPage = () => {
   return (
-    <main className="min-h-screen bg-gray-100">
+    <main className="min-h-screen bg-gray-200">
       {/* Header */}
       <header className="bg-teal-700 text-white p-4 text-center">
         <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE - PREMARKET HOMES</h1>
@@ -14,16 +14,15 @@ const SmsTermsPage = () => {
         {/* General Terms */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">SMS Communication Terms</h2>
-          <p className="mb-4 text-gray-800">
-            By opting in to receive SMS messages from Scott Novak Real Estate, you agree to receive
-            periodic text messages about premarket properties and related real estate information.
+          <p className="mb-4 text-gray-800 sm:text-base">
+            By opting in to receive SMS messages from Scott Novak Real Estate, you agree to receive periodic text messages about premarket properties and related real estate information.
           </p>
         </section>
 
         {/* Messaging Details */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">Important Information</h2>
-          <ul className="list-disc pl-6 mb-4 text-gray-800">
+          <ul className="list-disc pl-6 mb-4 text-gray-800 sm:text-base">
             <li>Message and data rates may apply</li>
             <li>Message frequency may vary</li>
             <li>You can opt-out at any time</li>
@@ -34,10 +33,10 @@ const SmsTermsPage = () => {
         {/* Opt-Out Instructions */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">How to Opt-Out</h2>
-          <p className="mb-4 text-gray-800">
+          <p className="mb-4 text-gray-800 sm:text-base">
             You can stop receiving text messages at any time by:
           </p>
-          <ul className="list-disc pl-6 text-gray-800">
+          <ul className="list-disc pl-6 text-gray-800 sm:text-base">
             <li>Replying STOP to any message you receive from us</li>
             <li>Replying UNSUBSCRIBE to any message you receive from us</li>
           </ul>
@@ -46,23 +45,21 @@ const SmsTermsPage = () => {
         {/* Privacy Statement */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">Privacy Protection</h2>
-          <p className="text-gray-800">
-            We will never share, trade, or sell your phone number or any other personal information
-            to third parties for marketing purposes. Your privacy is important to us.
+          <p className="text-gray-800 sm:text-base">
+            We will never share, trade, or sell your phone number or any other personal information to third parties for marketing purposes. Your privacy is important to us.
           </p>
         </section>
 
         {/* Contact */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">Questions?</h2>
-          <p className="text-gray-800">
-            If you have any questions about our SMS service, please contact our team through the
-            main website.
+          <p className="text-gray-800 sm:text-base">
+            If you have any questions about our SMS service, please contact our team through the main website.
           </p>
         </section>
 
         {/* Footer */}
-        <footer className="text-center mt-8 text-sm text-gray-700">
+        <footer className="text-center mt-8 text-sm text-gray-800">
           <p>ALL RIGHTS RESERVED | POWERED BY THE TEAM OF SCOTT NOVAK</p>
           <p>DRE #01985628 | ND Real Estate Investors LLC</p>
         </footer>

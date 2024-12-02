@@ -27,7 +27,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-100">
       {/* Header */}
       <header className="bg-teal-700 text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">PREMARKET HOMES</h1>
+        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE - PREMARKET HOMES</h1>
       </header>
 
       {/* Main Content */}
