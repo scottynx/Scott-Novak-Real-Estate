@@ -26,7 +26,7 @@ const SmsTermsPage = () => {
            <li>Message and data rates may apply</li>
            <li>Message frequency may vary</li>
            <li>You can opt-out at any time</li>
-           <li>Your phone carrier's standard messaging rates will apply</li>
+           <li>Your phone carriers standard messaging rates will apply</li>
          </ul>
        </section>
 
@@ -37,8 +37,8 @@ const SmsTermsPage = () => {
            You can stop receiving text messages at any time by:
          </p>
          <ul className="list-disc pl-6">
-           <li>Replying "STOP" to any message you receive from us</li>
-           <li>Replying "UNSUBSCRIBE" to any message you receive from us</li>
+           <li>Replying STOP to any message you receive from us</li>
+           <li>Replying UNSUBSCRIBE to any message you receive from us</li>
          </ul>
        </section>
 

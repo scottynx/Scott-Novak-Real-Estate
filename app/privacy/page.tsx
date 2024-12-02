@@ -1,6 +1,6 @@
 'use client';
 
-export default function Privacy() {
+const PrivacyPage = () => {
  return (
    <main className="min-h-screen bg-gray-50">
      {/* Header */}
@@ -41,7 +41,7 @@ export default function Privacy() {
          </ul>
          <h3 className="font-semibold mb-2">Opt-Out Instructions:</h3>
          <p>
-           Text Message Opt-Out: If you are receiving text messages from us and wish to stop receiving them, simply respond with either "STOP" or "UNSUBSCRIBE" to the number from which you received the message.
+           Text Message Opt-Out: If you are receiving text messages from us and wish to stop receiving them, simply respond with either STOP or UNSUBSCRIBE to the number from which you received the message.
          </p>
        </section>
 
@@ -81,4 +81,6 @@ export default function Privacy() {
      </div>
    </main>
  );
-}
+};
+
+export default PrivacyPage;
