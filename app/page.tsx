@@ -115,7 +115,7 @@ export default function Home() {
                 className="mr-2"
               />
               <label htmlFor="smsOptIn" className="ml-2 block text-sm text-gray-700">
-                By checking this box, I consent to receive text messages related to premarket properties from Scott Novak Real Estate. You can reply "STOP" at any time to opt-out. Message and data rates may apply. Message frequency may vary, text HELP for assistance. For more information, please visit our{' '}
+                By checking this box, I consent to receive text messages related to premarket properties from Scott Novak Real Estate. You can reply &quot;STOP&quot; at any time to opt-out. Message and data rates may apply. Message frequency may vary, text HELP for assistance. For more information, please visit our{' '}
                 <a href="https://www.scottnovakrealestate.com/privacy" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and{' '}
                 <a href="https://www.scottnovakrealestate.com/smsterms" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">SMS Terms and Conditions</a>.
               </label>
