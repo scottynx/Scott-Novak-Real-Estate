@@ -27,7 +27,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-100">
       {/* Header */}
       <header className="bg-teal-700 text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE - PREMARKET HOMES</h1>
+        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE</h1>
       </header>
 
       {/* Main Content */}
@@ -115,9 +115,9 @@ export default function Home() {
                 className="mr-2"
               />
               <label htmlFor="smsOptIn" className="ml-2 block text-sm text-gray-700">
-                By checking this box, I consent to receive text messages related to premarket properties from Scott Novak Real Estate. You can reply &quot;STOP&quot; at any time to opt-out. Message and data rates may apply. Message frequency may vary, text HELP for assistance. For more information, please visit our{' '}
-                <a href="https://www.scottnovakrealestate.com/privacy" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and{' '}
-                <a href="https://www.scottnovakrealestate.com/smsterms" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">SMS Terms and Conditions</a>.
+              By checking this box, you agree to receive SMS text messages related to Customer Care and Marketing from Scott Novak Real Estate, you may reply STOP to opt-out at any time, reply HELP to 916-256-2154 for asssistance, Messages and data rates may apply, Messaging frequency may vary, this is my privacy policy {' '}
+                <a href="https://www.scottnovakrealestate.com/privacy" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">privacy policy</a> and{' '}
+                <a href="https://www.scottnovakrealestate.com/smsterms" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">terms and conditions</a>.
               </label>
             </div>
 
@@ -136,7 +136,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="text-center mt-8 text-sm text-gray-700">
-          <p>ALL RIGHTS RESERVED | POWERED BY THE TEAM OF SCOTT NOVAK</p>
+          <p>ALL RIGHTS RESERVED | SCOTT NOVAK REAL ESTATE</p>
           <p>DRE #01985628 | ND Real Estate Investors LLC</p>
         </footer>
       </div>

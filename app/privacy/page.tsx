@@ -5,7 +5,7 @@ const PrivacyPage = () => {
     <main className="min-h-screen bg-gray-100">
       {/* Header */}
       <header className="bg-teal-700 text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE - PREMARKET HOMES</h1>
+        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE</h1>
       </header>
 
       <div className="max-w-3xl mx-auto p-6 sm:p-8">
@@ -29,14 +29,7 @@ const PrivacyPage = () => {
         {/* Data Protection Statement */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-black mb-4">Data Protection Statement</h2>
-          <p className="mb-4 text-gray-800">
-            Our organization maintains strict privacy policies to protect personal information
-            obtained for text message communications. This information is never sold, rented,
-            released, or traded to others without prior consent or legal obligation. Any sharing of
-            information with third parties is solely for the purpose of fulfilling our obligations
-            to you. We guarantee that it will never be shared with third parties for marketing
-            purposes.
-          </p>
+          <h2 className="text-xl font-semibold text-black mb-4">SMS consent and phone numbers will not be shared with third parties or affiliates for marketing purposes.</h2>
         </section>
 
         {/* Text Message Communications */}
@@ -51,8 +44,7 @@ const PrivacyPage = () => {
           <h3 className="font-semibold text-gray-900 mb-2">Opt-Out Instructions:</h3>
           <p className="text-gray-800">
             Text Message Opt-Out: If you are receiving text messages from us and wish to stop
-            receiving them, simply respond with either STOP or UNSUBSCRIBE to the number from which
-            you received the message.
+            receiving them, simply respond with either STOP or UNSUBSCRIBE to 916-256-2154
           </p>
         </section>
 
@@ -88,7 +80,7 @@ const PrivacyPage = () => {
 
         {/* Footer */}
         <footer className="text-center mt-8 text-sm text-gray-700">
-          <p>ALL RIGHTS RESERVED | POWERED BY THE TEAM OF SCOTT NOVAK</p>
+          <p>ALL RIGHTS RESERVED | SCOTT NOVAK REAL ESTATE</p>
           <p>DRE #01985628 | ND Real Estate Investors LLC</p>
         </footer>
       </div>
