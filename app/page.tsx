@@ -137,7 +137,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center mt-8 text-sm text-gray-700">
           <p>ALL RIGHTS RESERVED | SCOTT NOVAK REAL ESTATE</p>
-          <p>DRE #01985628 | ND Real Estate Investors LLC</p>
+          <p>DRE #01985628  | ND Real Estate Investors LLC</p>
         </footer>
       </div>
     </main>
