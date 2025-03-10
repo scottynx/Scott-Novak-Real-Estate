@@ -26,23 +26,28 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100">
       {/* Header */}
-      <header className="bg-teal-700 text-white p-4 text-center">
-        <h1 className="text-2xl font-bold">SCOTT NOVAK REAL ESTATE</h1>
+      <header className="bg-teal-700 text-white p-6 text-center shadow-md">
+        <h1 className="text-3xl font-bold">SCOTT NOVAK REAL ESTATE</h1>
       </header>
 
       {/* Main Content */}
-      <div className="max-w-3xl mx-auto p-6 sm:p-8">
-        <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-black mb-2">Welcome to the Premarket Homes Portal</h2>
-          <div className="text-gray-800">
+      <div className="max-w-3xl mx-auto p-6 sm:p-8 bg-white my-8 rounded-lg shadow-sm">
+        <h1 className="text-4xl font-bold text-teal-800 mb-10 pb-4 border-b-2 border-teal-700 text-center">
+          Premarket Homes Portal
+        </h1>
+
+        <div className="pl-4 mb-8">
+          <p className="text-gray-800 text-lg text-center">
             Get exclusive access to premarket properties in the Greater Sacramento Area!
-          </div>
+          </p>
         </div>
 
         {/* Video Section */}
-        <div className="mb-8">
-          <h3 className="text-xl font-bold text-black text-center mb-4">Watch the Explainer Video</h3>
-          <div className="aspect-video bg-blue-900 rounded-lg">
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Watch the Explainer Video
+          </h2>
+          <div className="aspect-video bg-blue-900 rounded-lg shadow">
             <iframe
               className="w-full h-full rounded-lg"
               src="https://www.youtube.com/embed/BJiyrpG0R40"
@@ -51,93 +56,214 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
-        </div>
+        </section>
 
         {/* Why Choose Us Section */}
-        <div className="mb-8">
-          <h3 className="text-xl font-bold text-black text-center mb-4">Why Choose Us?</h3>
-          <ul className="space-y-2 text-gray-800">
-            <li className="flex items-center">
-              <span className="mr-2">•</span>
-              <span>Exclusive access to premarket homes.</span>
-            </li>
-            <li className="flex items-center">
-              <span className="mr-2">•</span>
-              <span>Personalized service tailored to your needs.</span>
-            </li>
-            <li className="flex items-center">
-              <span className="mr-2">•</span>
-              <span>Expert guidance through the buying process.</span>
-            </li>
-          </ul>
-        </div>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Why Choose Us?
+          </h2>
+          <div className="pl-4">
+            <ul className="space-y-4 text-gray-800">
+              <li className="flex items-start">
+                <span className="text-teal-600 font-bold mr-3 text-lg">•</span>
+                <span>Exclusive access to premarket homes.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-teal-600 font-bold mr-3 text-lg">•</span>
+                <span>Personalized service tailored to your needs.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-teal-600 font-bold mr-3 text-lg">•</span>
+                <span>Expert guidance through the buying process.</span>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-        {/* Form Section */}
-        <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
-          <div className="space-y-4">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              value={formData.name}
-              onChange={handleChange}
-              className="w-full p-2 border rounded"
-              required
-            />
+        {/* Form Section - MOVED UP */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Register for Access
+          </h2>
+          <form onSubmit={handleSubmit} className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+            <div className="space-y-5">
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 ml-1">
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter your full name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="w-full p-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  required
+                />
+              </div>
 
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full p-2 border rounded"
-              required
-            />
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 ml-1">
+                  Your Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email address"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="w-full p-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  required
+                />
+              </div>
 
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Your Phone Number"
-              value={formData.phone}
-              onChange={handleChange}
-              className="w-full p-2 border rounded"
-              required
-            />
+              <div>
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1 ml-1">
+                  Your Phone Number
+                </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="w-full p-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  required
+                />
+              </div>
 
-            <div className="flex items-center">
-              <input
-                type="checkbox"
-                name="smsOptIn"
-                id="smsOptIn"
-                checked={formData.smsOptIn}
-                onChange={handleChange}
-                className="mr-2"
-              />
-              <label htmlFor="smsOptIn" className="ml-2 block text-sm text-gray-700">
-              By checking this box, you agree to receive SMS text messages related to Customer Care and Marketing from Scott Novak Real Estate, you may reply STOP to opt-out at any time, reply HELP to 916-256-2154 for asssistance, Messages and data rates may apply, Messaging frequency may vary, this is my privacy policy {' '}
-                <a href="https://www.scottnovakrealestate.com/privacy" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">privacy policy</a> and{' '}
-                <a href="https://www.scottnovakrealestate.com/smsterms" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">terms and conditions</a>.
-              </label>
+              <div className="flex items-start mt-6 bg-gray-100 p-4 rounded-md border border-gray-200">
+                <input
+                  type="checkbox"
+                  name="smsOptIn"
+                  id="smsOptIn"
+                  checked={formData.smsOptIn}
+                  onChange={handleChange}
+                  className="mt-1"
+                />
+                <label htmlFor="smsOptIn" className="ml-3 block text-sm text-gray-700">
+                  By checking this box, you agree to receive SMS text messages related to Customer Care and Marketing from Scott Novak Real Estate, you may reply STOP to opt-out at any time, reply HELP to 916-256-2154 for assistance, Messages and data rates may apply, Messaging frequency may vary (up to 4 messages per month). Please review our{' '}
+                  <a href="/privacy" className="text-teal-600 font-semibold hover:underline" target="_blank" rel="noopener noreferrer">privacy policy</a> and{' '}
+                  <a href="/terms" className="text-teal-600 font-semibold hover:underline" target="_blank" rel="noopener noreferrer">terms and conditions</a>.
+                </label>
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-teal-700 text-white py-3 px-4 rounded-md hover:bg-teal-800 transition font-semibold text-lg mt-4"
+              >
+                Submit
+              </button>
             </div>
+          </form>
+        </section>
 
-            <button
-              type="submit"
-              className="w-full bg-teal-700 text-white py-2 px-4 rounded hover:bg-teal-800 transition"
-            >
-              Submit
-            </button>
+        {/* About Us Section - NOW AFTER REGISTER */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            About Us
+          </h2>
+          <div className="pl-4">
+            <p className="mb-4 text-gray-800">
+              Scott Novak Real Estate is dedicated to finding great deals on pre-market homes for buyers in the Greater Sacramento Area for the past four years, as well as selling their current home for the most money possible through target marketing.
+            </p>
+            <p className="mb-4 text-gray-800">
+              We are dedicated to serving veterans, young families, retirees downsizing and others so that they may have the home of their dreams.
+            </p>
+            <p className="text-gray-800">
+              We are brokered by eXp Realty of California, Inc.
+            </p>
+          </div>
+        </section>
 
-            <div className="text-sm text-gray-800 text-center mt-4">
-              We will never share, trade, or otherwise sell your personal information such as phone numbers and SMS consent to third parties under any circumstances. See our <a href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</a> for more information.
+        {/* Privacy Policy Summary */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Privacy Policy
+          </h2>
+          <div className="pl-4">
+            <p className="mb-4 text-gray-800">
+              We collect only essential information (name, email, phone) to provide you with real estate services. 
+              Your data is protected with reasonable security measures and will never be shared with third parties 
+              for marketing purposes.
+            </p>
+            <p className="mb-4 text-gray-800">
+              You have the right to access, correct, delete, or object to the processing of your personal information. 
+              To exercise these rights, simply reply to any of our communications with specific keywords like "ACCESS", "DELETE", 
+              or "CORRECTION".
+            </p>
+            <div className="text-center mt-6">
+              <a href="/privacy" className="inline-block bg-gray-200 hover:bg-gray-300 text-teal-700 font-semibold py-2 px-4 rounded transition">
+                View Full Privacy Policy
+              </a>
             </div>
           </div>
-        </form>
+        </section>
+
+        {/* Terms and Conditions Summary */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Terms and Conditions
+          </h2>
+          <div className="pl-4">
+            <p className="mb-4 text-gray-800">
+              Our terms cover how we communicate with you via SMS, phone, and email. By providing your contact 
+              information, you consent to receive communications related to real estate services.
+            </p>
+            <p className="mb-4 text-gray-800">
+              For SMS messages, you may receive up to 4 messages per month. Standard message and data rates may apply. 
+              You can opt out at any time by replying "STOP" to any text message or following our other opt-out procedures 
+              for phone and email communications.
+            </p>
+            <div className="text-center mt-6">
+              <a href="/terms" className="inline-block bg-gray-200 hover:bg-gray-300 text-teal-700 font-semibold py-2 px-4 rounded transition">
+                View Full Terms and Conditions
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Us Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-teal-700 mb-6 pb-2 border-b border-gray-300 text-center">
+            Contact Us
+          </h2>
+          <div className="pl-4">
+            <div className="flex items-start mb-4">
+              <div className="text-teal-600 mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-semibold">Phone:</h3>
+                <p className="text-gray-800">Text or call: <a href="tel:9162562154" className="text-teal-600 hover:underline">916-256-2154</a></p>
+              </div>
+            </div>
+            
+            <div className="flex items-start">
+              <div className="text-teal-600 mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-semibold">Email:</h3>
+                <p className="text-gray-800"><a href="mailto:scott@scottnovakrealestate.com" className="text-teal-600 hover:underline">scott@scottnovakrealestate.com</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Footer */}
-        <footer className="text-center mt-8 text-sm text-gray-700">
-          <p>ALL RIGHTS RESERVED | SCOTT NOVAK REAL ESTATE</p>
-          <p>DRE #01985628  | ND Real Estate Investors LLC</p>
+        <footer className="text-center mt-12 pt-6 text-sm text-gray-700 border-t border-gray-300">
+          <p>Last Updated: March 10, 2025</p>
+          <p className="mt-2">ALL RIGHTS RESERVED | SCOTT NOVAK REAL ESTATE</p>
+          <p>DRE #01985628 | ND Real Estate Investors LLC</p>
         </footer>
       </div>
     </main>
