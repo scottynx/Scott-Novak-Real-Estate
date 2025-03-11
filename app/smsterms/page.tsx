@@ -55,25 +55,25 @@ const TermsPage = () => {
                   <br /><br />
                   Scott Novak, Realtor 916-256-2154
                   <br /><br />
-                  Reply STOP to opt out.&rdquo;
+                  Reply &ldquo;STOP&rdquo; to opt out.&rdquo;
                 </p>
               </div>
               
               <div className="bg-gray-100 p-4 rounded-lg mb-4">
                 <p className="text-gray-800 mb-2 italic">
-                  &ldquo;Yes, I can meet you this evening and show you the home we were discussing. Reply STOP to opt out.&rdquo;
+                  &ldquo;Yes, I can meet you this evening and show you the home we were discussing. Reply &ldquo;STOP&rdquo; to opt out.&rdquo;
                 </p>
               </div>
               
               <div className="bg-gray-100 p-4 rounded-lg mb-4">
                 <p className="text-gray-800 mb-2 italic">
-                  &ldquo;It was pleasant talking to you this evening. Just to recap, my name is Scott Novak and I&apos;m a Realtor. We should definitely get together and look at homes in Sacramento next month. Reply STOP to opt out.&rdquo;
+                  &ldquo;It was pleasant talking to you this evening. Just to recap, my name is Scott Novak and I&apos;m a Realtor. We should definitely get together and look at homes in Sacramento next month. Reply &ldquo;STOP&rdquo; to opt out.&rdquo;
                 </p>
               </div>
               
               <div className="bg-gray-100 p-4 rounded-lg">
                 <p className="text-gray-800 mb-2 italic">
-                  &ldquo;I received your home value request and have begun the research, but have a question on the home to get an accurate value. Give me a quick call at this number. Scott Novak, Realtor. Reply STOP to opt out.&rdquo;
+                  &ldquo;I received your home value request and have begun the research, but have a question on the home to get an accurate value. Give me a quick call at this number. Scott Novak, Realtor. Reply &ldquo;STOP&rdquo; to opt out.&rdquo;
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ const TermsPage = () => {
             <h3 className="text-xl font-semibold text-gray-800 mb-4 pl-2 border-l-4 border-teal-500">Message Frequency</h3>
             <div className="pl-4">
               <p className="mb-4 text-gray-800 sm:text-base">
-                Message frequency may vary depending on your interactions with our services. You may receive up to 10 SMS messages per month regarding your real estate inquiries, property information, or home search activities.
+                Message frequency may vary depending on your interactions with our services. You may receive up to 4 SMS messages per month regarding your real estate inquiries, property information, or home search activities.
               </p>
             </div>
           </section>
@@ -107,7 +107,7 @@ const TermsPage = () => {
                 You may opt-in to receive SMS messages from Scott Novak Real Estate by submitting an online form on our website at scottnovakrealestate.com. To receive SMS text messages, you must explicitly check the box indicating that you agree to receive SMS text messages. This box is not checked by default, and you can complete the sign-up process without checking this box.
               </p>
               <p className="mb-4 text-gray-800 sm:text-base">
-                To opt-in at any time, you can also text START to 916-256-2154.
+                To opt-in at any time, you can also text &ldquo;START&rdquo; to 916-256-2154.
               </p>
             </div>
           </section>
@@ -183,7 +183,7 @@ const TermsPage = () => {
           <h3 className="text-xl font-semibold text-gray-800 mb-4 pl-2 border-l-4 border-teal-500">Opting Out</h3>
           <div className="pl-4">
             <p className="mb-4 text-gray-800 sm:text-base">
-              To opt out of phone communications, you can request to be placed on our do-not-call list by stating this request during any phone call or by sending an email to scott@scottnovakrealestate.com with "DO NOT CALL" in the subject line.
+              To opt out of phone communications, you can request to be placed on our do-not-call list by stating this request during any phone call or by sending an email to scott@scottnovakrealestate.com with &ldquo;DO NOT CALL&rdquo; in the subject line.
             </p>
           </div>
         </section>
@@ -222,7 +222,7 @@ const TermsPage = () => {
           <h3 className="text-xl font-semibold text-gray-800 mb-4 pl-2 border-l-4 border-teal-500">Opting Out</h3>
           <div className="pl-4">
             <p className="mb-4 text-gray-800 sm:text-base">
-              To opt out of email communications, you can click the unsubscribe link in any email or send a request to scott@scottnovakrealestate.com with "UNSUBSCRIBE" in the subject line.
+              To opt out of email communications, you can click the unsubscribe link in any email or send a request to scott@scottnovakrealestate.com with &ldquo;UNSUBSCRIBE&rdquo; in the subject line.
             </p>
           </div>
         </section>

@@ -193,8 +193,8 @@ export default function Home() {
             </p>
             <p className="mb-4 text-gray-800">
               You have the right to access, correct, delete, or object to the processing of your personal information. 
-              To exercise these rights, simply reply to any of our communications with specific keywords like "ACCESS", "DELETE", 
-              or "CORRECTION".
+              To exercise these rights, simply reply to any of our communications with specific keywords like &ldquo;ACCESS&rdquo;, &ldquo;DELETE&rdquo;, 
+              or &ldquo;CORRECTION&rdquo;.
             </p>
             <div className="text-center mt-6">
               <a href="/privacy" className="inline-block bg-gray-200 hover:bg-gray-300 text-teal-700 font-semibold py-2 px-4 rounded transition">
@@ -216,7 +216,7 @@ export default function Home() {
             </p>
             <p className="mb-4 text-gray-800">
               For SMS messages, you may receive up to 4 messages per month. Standard message and data rates may apply. 
-              You can opt out at any time by replying "STOP" to any text message or following our other opt-out procedures 
+              You can opt out at any time by replying &ldquo;STOP&rdquo; to any text message or following our other opt-out procedures 
               for phone and email communications.
             </p>
             <div className="text-center mt-6">

@@ -115,7 +115,7 @@ const PrivacyPage = () => {
             <h3 className="text-xl font-semibold text-gray-800 mb-4 pl-2 border-l-4 border-teal-500">How to Opt-Out:</h3>
             <p className="text-gray-800 pl-4">
               If you are receiving text messages from us and wish to stop receiving them, simply respond 
-              with either STOP or UNSUBSCRIBE to 916-256-2154
+              with either &ldquo;STOP&rdquo; or &ldquo;UNSUBSCRIBE&rdquo; to 916-256-2154
             </p>
           </div>
         </section>
