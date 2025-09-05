@@ -10,7 +10,12 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
     ];
-  }
+  },
+  
+  // Environment variables configuration
+  env: {
+    NEXT_PUBLIC_PRIVYR_WEBHOOK_URL: process.env.NEXT_PUBLIC_PRIVYR_WEBHOOK_URL,
+  },
 };
 
 export default nextConfig;
